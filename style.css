@@ -13,7 +13,7 @@ body{
     width: 100%;
     justify-content: space-between;
     position: fixed;
-    padding: 10px;
+    padding: 20px;
     margin-right: 20px;
 
 }
@@ -21,9 +21,6 @@ body{
     margin-left: 20px;
 }
 #login{
-
-}
-#menu{
     margin-right: 20px;
 }
 #introduce{
@@ -35,6 +32,8 @@ body{
 #introduce-title{
     background-color: transparent;
     position: absolute;
+    font-size: 35px;
+    font-weight: 600;
     top:20%;
     left:50%;
     transform: translate( -50%, -50% );
@@ -45,7 +44,7 @@ body{
     text-align: center;
     margin: 30px;
     position: absolute;
-    top:60%;
-    left:50%;
+    top: 50%;
+    left: 45%;
     transform: translate( -50%, -50% );
 }
