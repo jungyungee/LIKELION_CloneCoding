@@ -48,3 +48,8 @@ body{
     left: 45%;
     transform: translate( -50%, -50% );
 }
+@media (max-width:1000px){
+    #main-img{
+        width:1000px;   /*메인 이미지가 1000px 이하에서는 오른쪽이 잘려보이게 ( 이상에서는 화면 크기에 맞춰짐) */
+    }   
+}
