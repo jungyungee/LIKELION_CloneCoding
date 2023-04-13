@@ -3,6 +3,9 @@
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif
 }
+div{
+    display: block;
+}
 body{
     margin: 0;
 }
@@ -29,6 +32,9 @@ body{
     top: 60px;
     position: relative
 }
+#main-img{
+
+}
 #introduce-title{
     background-color: transparent;
     position: absolute;
@@ -37,6 +43,7 @@ body{
     top:20%;
     left:50%;
     transform: translate( -50%, -50% );
+    white-space : nowrap;
 }
 #introduce-text{
     background-color: transparent;
@@ -47,9 +54,35 @@ body{
     top: 50%;
     left: 45%;
     transform: translate( -50%, -50% );
+    font-size: 24px;
+    font-weight: 600;
 }
 @media (max-width:1000px){
     #main-img{
         width:1000px;   /*메인 이미지가 1000px 이하에서는 오른쪽이 잘려보이게 ( 이상에서는 화면 크기에 맞춰짐) */
     }   
+}
+@media (max-width:768px){
+    #introduce-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    #introduce-text{    /*768px 이하에서 텍스트 박스 크기 고정*/
+        width: 348px;
+        height: 168px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){  
+    #introduce-title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    #introduce-text{
+    width: 595px;
+    height: 110px;
+    font-size: 16px;
+    line-height: 22px;
+}
 }
