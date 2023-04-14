@@ -18,7 +18,7 @@ body{
     position: fixed;
     padding: 20px;
     margin-right: 20px;
-
+    z-index: 999;
 }
 #title{
     margin-left: 20px;
@@ -57,6 +57,23 @@ body{
     font-size: 24px;
     font-weight: 600;
 }
+#curriculum{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 220px;
+    text-align: center;
+    font-weight: 220px;
+}
+#curri-title{
+    font-size: 40px;
+}
+#curri-text{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+}
 @media (max-width:1000px){
     #main-img{
         width:1000px;   /*메인 이미지가 1000px 이하에서는 오른쪽이 잘려보이게 ( 이상에서는 화면 크기에 맞춰짐) */
@@ -72,6 +89,14 @@ body{
         height: 168px;
         font-size: 15px;
         line-height: 24px;
+    }
+    #curri-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    #curri-text{
+        font-size: 16px;
+        line-height: 19px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px){  
