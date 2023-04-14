@@ -77,7 +77,7 @@ body{
 @media (min-width: 1200px){
     #banner{
     width: 100%;
-    padding: 0px 340px;
+    padding: 40px;
     -webkit-box-pack: justify;
     justify-content: space-between;
     height: 90px !important;
@@ -103,7 +103,7 @@ body{
 @media (min-width: 768px) and (max-width: 1200px){
     #banner{
     float: none;
-    padding: 0px 40px;
+    padding: 20px;
     -webkit-box-pack: justify;
     justify-content: space-between;
     }
